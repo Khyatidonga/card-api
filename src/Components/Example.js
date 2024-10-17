@@ -5,7 +5,7 @@ import App from '../App'
 const Example = ({category}) => {
     
     const[data,setData] = useState([])
-    const[details,setDetails] = useState([])
+    const[details,setDetails] = useState([])s
 
 
 
