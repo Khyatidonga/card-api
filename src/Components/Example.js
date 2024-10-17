@@ -5,6 +5,10 @@ import App from '../App'
 const Example = ({category}) => {
     
     const[data,setData] = useState([])
+    const[details,setDetails] = useState([])s
+
+
+
     
     useEffect(() => {
         fetch(`https://newsapi.org/v2/top-headlines?country=us&category=${category}&apiKey=47c3e72523ed47129efc9755cdff16a6`)
